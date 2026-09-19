@@ -1,0 +1,20 @@
+Ahamd PC Manager - How to build the Windows EXE
+================================================
+
+REQUIREMENT: Windows 10 or 11 with Python 3.12+ installed.
+
+Steps:
+  1. Open Command Prompt or PowerShell in this folder.
+  2. Run:
+
+       build.bat
+
+  3. Wait until it finishes (2-5 minutes typical).
+  4. Find the executable:
+
+       dist\AhamdPCManager.exe
+
+Optional: place an icon file at assets\app.ico before building
+so the EXE gets a custom icon.
+
+The resulting EXE is portable (no installer needed).

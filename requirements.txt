@@ -1,0 +1,7 @@
+PySide6>=6.6.0
+psutil>=5.9.0
+# Windows-only (install on Windows):
+# pywin32>=306
+# WMI>=1.5.1
+# For building executable on Windows:
+# pyinstaller>=6.0.0
